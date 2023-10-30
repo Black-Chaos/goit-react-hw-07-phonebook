@@ -24,12 +24,16 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Container = styled.div`
+margin-inline: auto;
+padding-inline: 15px;
   display: flex;
+  max-width: 1200px;
 
   .form-container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     width: 300px;
-    height: max-content;
+    /* height: 100vh; */
     padding: 20px;
     gap: 20px;
     border: var(--border);

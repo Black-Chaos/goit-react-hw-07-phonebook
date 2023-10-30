@@ -27,6 +27,7 @@ export function App() {
       <h1 className="title">Phonebook</h1>
       <Container>
         <div className="form-container">
+          <h2 className="title">Add contact</h2>
           <ContactForm addContact={addNewContact} />
           <Filter />
         </div>
