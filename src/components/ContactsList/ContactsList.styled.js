@@ -1,9 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ListByContacts = styled.ul`
-padding: 20px;
-display: flex;
-flex-direction: column;
-gap: 8px;
-list-style: circle;
-`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+`;

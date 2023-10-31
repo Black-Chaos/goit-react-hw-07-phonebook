@@ -24,7 +24,7 @@ export function App() {
 
   return (
     <>
-      <h1 className="title">Phonebook</h1>
+      <h1 className="title main-title">Phonebook</h1>
       <Container>
         <div className="form-container">
           <h2 className="title">Add contact</h2>

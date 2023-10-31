@@ -5,11 +5,15 @@ export const GlobalStyle = createGlobalStyle`
       --border: 1px solid gray;
       --shadow: 4px 4px 8px gray;
   }
-
+  
   .title {
-      text-align: center;
+    text-align: center;
+    margin-bottom: 20px;
   }
-    
+  
+  .main-title {
+    margin-bottom: 40px;
+  }
   
   .btn {
     width: max-content;
@@ -24,9 +28,10 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Container = styled.div`
-margin-inline: auto;
-padding-inline: 15px;
+  margin-inline: auto;
+  padding-inline: 15px;
   display: flex;
+  gap: 20px;
   max-width: 1200px;
 
   .form-container {
@@ -35,8 +40,8 @@ padding-inline: 15px;
     width: 300px;
     /* height: 100vh; */
     padding: 20px;
-    gap: 20px;
-    border: var(--border);
+    /* gap: 20px; */
+    border-right: var(--border);
 
     label {
       display: grid;
@@ -49,7 +54,6 @@ padding-inline: 15px;
   }
 
   .contacts-container {
-    min-width: 190px;
-    padding: 20px;
+    width: 100%;
   }
 `;
